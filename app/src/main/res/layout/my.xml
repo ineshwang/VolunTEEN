@@ -10,37 +10,47 @@
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="81dp"
-        android:text="TextView" />
+        android:text="Volunteen" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:text="Profile EDIT" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:text="share" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:text="Statistics" />
 
     <Button
         android:id="@+id/button12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:text="privacy" />
 
     <Button
         android:id="@+id/button13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="center"
+        android:layout_margin="13dp"
+        android:text="access" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -52,5 +62,7 @@
         android:id="@+id/button23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="130dp"
+        android:text="back" />
 </LinearLayout>

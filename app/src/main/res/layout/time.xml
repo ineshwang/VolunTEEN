@@ -5,12 +5,12 @@
     android:layout_height="match_parent">
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="402dp"
+            android:layout_height="34dp"
             android:hint="hint" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -18,7 +18,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="VolunTEEN" />
 
     <TextView
         android:id="@+id/textView7"

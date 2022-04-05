@@ -8,7 +8,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Log In"
         tools:layout_editor_absoluteX="248dp"
         tools:layout_editor_absoluteY="433dp" />
 
@@ -16,7 +16,7 @@
         android:id="@+id/textView"
         android:layout_width="194dp"
         android:layout_height="77dp"
-        android:text="TextView"
+        android:text="VolunTEEN"
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="313dp" />
 
@@ -24,7 +24,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Sign Up"
         tools:layout_editor_absoluteX="102dp"
         tools:layout_editor_absoluteY="433dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

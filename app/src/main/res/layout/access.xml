@@ -1,46 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="VolunTEEN" />
 
-    <EditText
-        android:id="@+id/editTextTextPassword"
+    <Switch
+        android:id="@+id/switch2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPassword" />
+        android:textSize="34dp"
+        android:text="Location" />
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
+    <Switch
+        android:id="@+id/switch3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:textSize="34dp"
+        android:text="Privacy" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
+    <Switch
+        android:id="@+id/switch4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone" />
+        android:textSize="34dp"
+        android:text="Privacy" />
 
-    <EditText
-        android:id="@+id/editTextTextPostalAddress2"
+    <Switch
+        android:id="@+id/switch5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPostalAddress" />
+        android:textSize="34dp"
+        android:text="Notification" />
 
-    <Button
-        android:id="@+id/button24"
+    <Switch
+        android:id="@+id/switch6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="finish" />
+        android:textSize="34dp"
+        android:text="Security" />
 </LinearLayout>
+
