@@ -14,7 +14,14 @@ public class Access extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.access);
 
+        switch(location) {
+            case 0:
+                break;
+            case 1:
+                break;
+            default:
 
+        }
 
     }
 }

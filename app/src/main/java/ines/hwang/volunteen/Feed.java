@@ -13,9 +13,21 @@ public class Feed extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.feed);
-        Button btn = findViewById(R.id.button14);
+        Button btn = findViewById(R.id.organization1);
 
         btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent it = new Intent(Feed.this, ServicePage.class);
+                startActivity(it);
+                finish();
+
+            }
+        });
+        Button atn = findViewById(R.id.organization2);
+
+        atn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

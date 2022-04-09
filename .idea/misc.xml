@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2595" />
+        <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2595" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/access.xml" value="0.1" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/after.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/chataccess.xml" value="0.25416666666666665" />
@@ -23,6 +24,7 @@
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/security.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/servicepage.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/share.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/signup.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/statistics.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/ihwang-24/AndroidStudioProjects/VolunTEEN/app/src/main/res/layout/time.xml" value="0.25416666666666665" />
       </map>

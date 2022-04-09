@@ -11,35 +11,42 @@
         android:text="VolunTEEN" />
 
     <Switch
-        android:id="@+id/switch2"
+        android:id="@+id/location"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
         android:text="Location" />
 
     <Switch
-        android:id="@+id/switch3"
+        android:id="@+id/privacy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
         android:text="Privacy" />
 
     <Switch
-        android:id="@+id/switch4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="34dp"
-        android:text="Privacy" />
-
-    <Switch
-        android:id="@+id/switch5"
+        android:id="@+id/notification"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
         android:text="Notification" />
 
     <Switch
-        android:id="@+id/switch6"
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:text="call" />
+
+    <Switch
+        android:id="@+id/chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:text="chat" />
+
+    <Switch
+        android:id="@+id/security"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"

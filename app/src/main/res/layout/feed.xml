@@ -11,25 +11,13 @@
         android:text="VolunTEEN" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/organization1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Organization" />
 
     <Button
-        android:id="@+id/button15"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Organization" />
-
-    <Button
-        android:id="@+id/button16"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Organization" />
-
-    <Button
-        android:id="@+id/button21"
+        android:id="@+id/organization2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Organization" />

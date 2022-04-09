@@ -26,8 +26,9 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/enter"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Enter" />
+
 </LinearLayout>
