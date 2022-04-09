@@ -19,7 +19,7 @@ public class Profile extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(Profile.this, My.class);
                 startActivity(it);
                 finish();
 

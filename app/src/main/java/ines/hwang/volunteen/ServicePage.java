@@ -1,8 +1,11 @@
 package ines.hwang.volunteen;
 
+import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
+import android.telecom.Call;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 
 import androidx.annotation.Nullable;
@@ -13,37 +16,37 @@ public class ServicePage extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.servicepage);
-        Button btn = findViewById(R.id.call);
+        Button etn = findViewById(R.id.call);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        etn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(ServicePage.this, Call.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.chat);
+        Button ctn = findViewById(R.id.chat);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        ctn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(ServicePage.this, Chat.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.availability);
+        Button atn = findViewById(R.id.web);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        atn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(ServicePage.this, WebView.class);
                 startActivity(it);
                 finish();
 

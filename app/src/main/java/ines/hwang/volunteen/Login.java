@@ -19,31 +19,31 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.login2);
+                Intent it = new Intent(Login.this, Login2.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.student);
+        Button atn = findViewById(R.id.student);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        atn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.login2);
+                Intent it = new Intent(Login.this, Login2.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.service_organization);
+        Button ctn = findViewById(R.id.service_organization);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        ctn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(Login.this, Login2.class);
                 startActivity(it);
                 finish();
 

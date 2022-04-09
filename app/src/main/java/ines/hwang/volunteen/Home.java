@@ -19,7 +19,7 @@ public class Home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.ServicePage);
+                Intent it = new Intent(Home.this, ServicePage.class);
                 startActivity(it);
                 finish();
 
@@ -29,7 +29,7 @@ public class Home extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
 
-                        Intent it = new Intent(Feed.this, ServicePage.class);
+                        Intent it = new Intent(Home.this, Main2.class);
                         startActivity(it);
                         finish();
 

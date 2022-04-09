@@ -19,56 +19,56 @@ public class My extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(My.this, Profile.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.share);
+        Button etn = findViewById(R.id.share);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        etn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(My.this, Share.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.statistics);
+        Button dtn = findViewById(R.id.statistics);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        dtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(My.this, Statistics.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.access);
+        Button ctn = findViewById(R.id.access);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        ctn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(My.this, Access.class);
                 startActivity(it);
                 finish();
 
             }
         });
 
-        Button btn = findViewById(R.id.back);
+        Button atn = findViewById(R.id.back);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        atn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(My.this, Main2.class);
                 startActivity(it);
                 finish();
 

@@ -6,7 +6,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -34,16 +34,16 @@
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="username" />
+        android:text="username:" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="password" />
+        android:text="password:" />
     <Button
-        android:id="@+id/button22"
-        android:layout_width="match_parent"
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="enter" />
 </LinearLayout>

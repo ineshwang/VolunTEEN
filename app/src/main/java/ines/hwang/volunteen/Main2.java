@@ -19,31 +19,31 @@ public class Main2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(Main2.this, Feed.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.home);
+        Button atn = findViewById(R.id.home);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        atn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(Main2.this, Home.class);
                 startActivity(it);
                 finish();
 
             }
         });
-        Button btn = findViewById(R.id.my);
+        Button ctn = findViewById(R.id.my);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        ctn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Feed.this, ServicePage.class);
+                Intent it = new Intent(Main2.this, My.class);
                 startActivity(it);
                 finish();
 
