@@ -8,6 +8,8 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        android:textColorHighlight="@color/blue"
         android:text="VolunTEEN" />
 
     <Switch
@@ -15,6 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
+        android:textColor="@color/blue"
         android:text="Location" />
 
     <Switch
@@ -22,6 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
+        android:textColor="@color/blue"
         android:text="Privacy" />
 
     <Switch
@@ -29,6 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
+        android:textColor="@color/blue"
         android:text="Notification" />
 
     <Switch
@@ -36,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
+        android:textColor="@color/blue"
         android:text="call" />
 
     <Switch
@@ -43,13 +49,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="34dp"
+        android:textColor="@color/blue"
         android:text="chat" />
 
     <Switch
         android:id="@+id/security"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/blue"
         android:textSize="34dp"
         android:text="Security" />
+
 </LinearLayout>
 
