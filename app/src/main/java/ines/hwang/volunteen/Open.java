@@ -31,7 +31,7 @@ public class Open extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent it = new Intent(Open.this, Signup.class);
+                Intent it = new Intent(Open.this, Login.class);
                 startActivity(it);
                 finish();
 
