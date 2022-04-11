@@ -16,7 +16,7 @@
         android:id="@+id/textView5"
         android:layout_width="188dp"
         android:layout_height="220dp"
-        android:text="TextView"
+        android:text="orphanage. Founded in 2000. Available all time. We currently have 50 children from all age groups."
         tools:layout_editor_absoluteX="224dp"
         tools:layout_editor_absoluteY="0dp" />
 

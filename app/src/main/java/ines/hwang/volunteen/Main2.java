@@ -21,7 +21,7 @@ public class Main2 extends AppCompatActivity {
 
                 Intent it = new Intent(Main2.this, Feed.class);
                 startActivity(it);
-                finish();
+
 
             }
         });
@@ -33,7 +33,7 @@ public class Main2 extends AppCompatActivity {
 
                 Intent it = new Intent(Main2.this, Home.class);
                 startActivity(it);
-                finish();
+
 
             }
         });
@@ -45,7 +45,6 @@ public class Main2 extends AppCompatActivity {
 
                 Intent it = new Intent(Main2.this, My.class);
                 startActivity(it);
-                finish();
 
             }
         });

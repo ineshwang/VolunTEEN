@@ -6,12 +6,8 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="402dp"
-            android:layout_height="34dp"
-            android:hint="hint" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -24,7 +20,7 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="negotiable time can be entered below" />
 
     <EditText
         android:id="@+id/editTextTime"
@@ -33,9 +29,8 @@
         android:ems="10"
         android:inputType="time" />
 
-    <CheckedTextView
-        android:id="@+id/checkedTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="402dp"
+        android:layout_height="34dp"
+        android:hint="enter time" />
 </LinearLayout>

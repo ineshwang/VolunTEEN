@@ -9,9 +9,9 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
+            android:layout_width="301dp"
             android:layout_height="match_parent"
-            android:hint="hint" />
+            android:hint="Enter date" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <EditText
@@ -21,11 +21,6 @@
         android:ems="10"
         android:inputType="textPostalAddress" />
 
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AutoCompleteTextView" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"

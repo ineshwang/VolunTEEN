@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,18 +11,20 @@
         android:layout_height="74dp"
         android:text="VolunTEEN" />
 
-    <EditText
-        android:id="@+id/editTextDate"
+    <TextView
+        android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="date" />
+        android:textSize="30dp"
+        android:text="Orphanage March 13th 2022, 4pm - 6pm. present" />
 
-    <EditText
-        android:id="@+id/editTextTextMultiLine"
+    <TextView
+        android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine" />
+        android:paddingVertical="100dp"
+        android:textSize="30dp"
+        android:text="Nursing Home. April 10th 2022, 1pm-4pm. present" />
+
+
 </LinearLayout>

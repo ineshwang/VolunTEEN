@@ -22,13 +22,15 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="hint" />
+            android:hint="comments" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/enter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginRight="300dp"
         android:text="Enter" />
 
 </LinearLayout>
