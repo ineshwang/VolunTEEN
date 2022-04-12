@@ -34,18 +34,9 @@ public class ServicePage extends AppCompatActivity {
         Button etn = findViewById(R.id.call);
 
         etn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                Intent it = new Intent(ServicePage.this, Call.class);
-                startActivity(it);
-                finish();
-
-                Button call = findViewById(R.id.call);
-                call.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String number = "01085043145";
+                        String number = "6094434464";
                         if (ContextCompat.checkSelfPermission(ServicePage.this, Manifest.permission.CALL_PHONE)== PackageManager.PERMISSION_GRANTED) {
                             Intent it = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + number));
                             startActivity(it);
@@ -58,8 +49,6 @@ public class ServicePage extends AppCompatActivity {
                     }
                 });
 
-            }
-        });
         Button ctn = findViewById(R.id.chat);
 
         ctn.setOnClickListener(new View.OnClickListener() {
@@ -72,17 +61,18 @@ public class ServicePage extends AppCompatActivity {
 
             }
         });
-        WebView atn = findViewById(R.id.webview);
 
-        atn.setOnClickListener(new View.OnClickListener() {
+        Button btn = findViewById(R.id.web);
+
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                atn.loadUrl("https://www.google.com/");
-                WebSettings webSettings = atn.getSettings();
-                webSettings.setJavaScriptEnabled(true);
-                atn.setWebViewClient(new WebViewClient());
+
+                Intent it = new Intent(ServicePage.this, MyWebView.class);
+                startActivity(it);
+                finish();
+
             }
         });
-
     }
 }

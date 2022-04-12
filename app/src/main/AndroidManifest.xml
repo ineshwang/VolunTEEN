@@ -2,11 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ines.hwang.volunteen">
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.VolunTEEN" >
         <activity android:name=".Open">
@@ -59,19 +61,19 @@
         </intent-filter>
     </activity>
 
-    <activity android:name="Help">
+    <activity android:name=".Help">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
 
-    <activity android:name="Home">
+    <activity android:name=".Home">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
 
-    <activity android:name="Location">
+    <activity android:name=".Location">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
@@ -83,41 +85,47 @@
         </intent-filter>
     </activity>
 
-    <activity android:name="Privacy">
+
+
+    <activity android:name=".Profile">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
 
-    <activity android:name="Profile">
+    <activity android:name=".ServicePage">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
 
-    <activity android:name="ServicePage">
+    <activity android:name=".Share">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
 
-    <activity android:name="Share">
+    <activity android:name=".Statistics">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
 
-    <activity android:name="Statistics">
+    <activity android:name=".Time">
         <intent-filter>
             <action android:name="android.intent.action.VIEW"/>
         </intent-filter>
     </activity>
-
-    <activity android:name="Time">
-        <intent-filter>
-            <action android:name="android.intent.action.VIEW"/>
-        </intent-filter>
-    </activity>
+        <activity android:name=".MyWebView">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Chat">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
 
     </application>
 
