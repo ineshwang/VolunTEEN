@@ -77,10 +77,10 @@ public class ServicePage extends AppCompatActivity {
         atn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                WebView.loadUrl("https://www.google.com/");
-                WebSettings webSettings = WebView.getSettings();
+                atn.loadUrl("https://www.google.com/");
+                WebSettings webSettings = atn.getSettings();
                 webSettings.setJavaScriptEnabled(true);
-                WebView.setWebViewClient(new WebViewClient());
+                atn.setWebViewClient(new WebViewClient());
             }
         });
 
